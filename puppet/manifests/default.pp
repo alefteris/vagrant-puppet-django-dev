@@ -1,0 +1,3 @@
+include byobu
+include virtualenvwrapper
+include postgresql
