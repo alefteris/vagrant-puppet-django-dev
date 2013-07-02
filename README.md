@@ -12,14 +12,15 @@ The final result is an Ubuntu 12.04 LTS virtual machine with the following insta
 
 You will need to have the [latest Vagrant](http://downloads.vagrantup.com/) installed and a provider compatible with Vagrant, such as [VirtualBox](https://www.virtualbox.org). Then switch to a place where you want to keep your Vagrant vm and run the following:
 
-    ```shell
-    git clone https://github.com/alefteris/vagrant-puppet-django-dev.git django-vm
-    cd django-vm
-    git submodule init
-    git submodule update --remote
-    vagrant up
-    vagrant ssh (or use PuTTY)
-    ```
+```shell
+git clone https://github.com/alefteris/vagrant-puppet-django-dev.git django-vm
+cd django-vm
+git submodule init
+git submodule update --remote
+vagrant up
+vagrant ssh (or use PuTTY)
+```
+
 ## License
 
 Unless otherwise stated: MIT License. Copyright © Thanos Lefteris
